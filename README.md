@@ -12,6 +12,8 @@ O **SalesInsight PY** é uma solução em Python estruturada em Programação Or
 
 O pipeline consome dados brutos (contendo ruídos, nulos e inconsistências de formatação), realiza um rigoroso processo de sanitização e transformação, calcula métricas de desempenho em múltiplas dimensões e exporta relatórios executivos (CSV/JSON) acompanhados de um painel de gráficos estatísticos em alta resolução (PNG).
 
+A estrutura de diretórios foi construída manualmente, logo, para a fiel reprodução e operação da aplicação será necessário recriá-la conforme descrição (ilustração) no final deste arquivo.
+
 ---
 
 ## 📹 Vídeo de Demonstração
@@ -57,20 +59,25 @@ O projeto consolida integralmente a grade curricular da primeira etapa da forma�
 ## 🛠️ Estrutura do Repositório
 
 ```text
-salesinsight-py/
-├── salesinsight.py         # Código-fonte do pipeline principal e classe AnalisadorDeVendas
-├── salesinsight.ipynb      # Notebook interativo para testes e exploração (opcional)
-├── vendas.csv              # Dataset sintético de vendas (bruto com inconsistências)
-├── README.md               # Documentação técnica do repositório
-├── .gitignore              # Filtro de arquivos não versionados pelo Git
-├── outputs/                # Artefatos e relatórios gerados pela aplicação
-│   ├── metricas_por_mes.csv
-│   ├── segmentacao_clientes.csv
-│   ├── estatisticas_gerais.json
-│   └── graficos/
-│       ├── receita_por_mes.png
-│       ├── top_produtos.png
-│       ├── quantidade_vs_receita.png
-│       └── painel_resumo.png
-└── planejamento/           # Documentação de gestão e tarefas
-    └── tarefas-kanban.md
+sctec-mini-projeto-01/
+├── databases/                         # Scripts de geração e base de dados original
+│   ├── sales_dataset_generator.ipynb  # Notebook gerador do dataset sintético
+│   ├── sales_dataset_generator.py     # Módulo Python com a função de geração do dataset
+│   └── vendas.csv                     # Dataset bruto de vendas
+├── outputs/                           # Artefatos gerados pela aplicação
+│   ├── graficos/                      # Visualizações e gráficos exportados
+│   │   ├── distribuicao_vendas.png
+│   │   ├── receita_por_categoria.png
+│   │   ├── top_5_produtos.png
+│   │   └── vendas_por_mes.png
+│   ├── relatorio_final.json           # Relatório consolidado em formato JSON
+│   └── vendas_processado.csv          # Base de dados limpa e tratada
+├── planejamento/                      # Documentação de gestão, evidências e entregáveis
+│   ├── Mini-Projeto Avaliativo.docx
+│   ├── tela_trello_01.png
+│   ├── tela_trello_02.png
+│   ├── tela_trello_03.png
+│   └── video_mini_projeto.mp4
+├── salesinsight-py/                   # Notebooks e scripts do pipeline principal
+│   └── salesinsight.ipynb             # Notebook interativo de análise e visualização
+└── README.md                          # Documentação técnica do repositório
