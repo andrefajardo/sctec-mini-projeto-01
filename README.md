@@ -25,7 +25,7 @@ O pipeline consome dados brutos (contendo ruídos, nulos e inconsistências de f
 
 O planejamento e o fluxo de desenvolvimento do projeto foram gerenciados utilizando a metodologia Kanban:
 
-* **Quadro Kanban (Link/Imagens):** [Insira Aqui o Link do Trello / GitHub Projects ou caminho da imagem]
+* **Quadro Kanban (Link/Imagens):** [Link das imagens do Trello](https://github.com/andrefajardo/sctec-mini-projeto-01/tree/main/planejamento)
 * **Estrutura de Colunas:** `Backlog` | `A Fazer` | `Em Andamento` | `Concluído`
 
 ---
