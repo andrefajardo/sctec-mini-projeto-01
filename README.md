@@ -16,7 +16,7 @@ O pipeline consome dados brutos (contendo ruídos, nulos e inconsistências de f
 
 ## 📹 Vídeo de Demonstração
 
-* **Link da Apresentação:** [Insira Aqui o Link do Seu Vídeo - Google Drive ou YouTube]  
+* 🎬 **Link da Apresentação:** [Clique aqui para o download do vídeo da apresentação](https://github.com/andrefajardo/sctec-mini-projeto-01/raw/refs/heads/main/planejamento/video_mini_projeto.mp4)  
 *(O vídeo possui duração de até 5 minutos e aborda a execução completa do pipeline, organização das tarefas no Kanban, estrutura de branches do Git e justificativa das decisões técnicas de implementação).*
 
 ---
@@ -25,7 +25,7 @@ O pipeline consome dados brutos (contendo ruídos, nulos e inconsistências de f
 
 O planejamento e o fluxo de desenvolvimento do projeto foram gerenciados utilizando a metodologia Kanban:
 
-* **Quadro Kanban (Link/Imagens):** [<video controls src="https://github.com/andrefajardo/sctec-mini-projeto-01/blob/main/planejamento/video_mini_projeto.mp4" title="Insira Aqui o Link do Trello / GitHub Projects ou caminho da imagem"></video>]
+* **Quadro Kanban (Link/Imagens):** [Insira Aqui o Link do Trello / GitHub Projects ou caminho da imagem]
 * **Estrutura de Colunas:** `Backlog` | `A Fazer` | `Em Andamento` | `Concluído`
 
 ---
