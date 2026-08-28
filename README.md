@@ -8,11 +8,11 @@
 
 ## 🎯 Sobre o Projeto
 
-O **SalesInsight PY** é uma solução em Python estruturada em Programação Orientada a Objetos (POO) e funções reutilizáveis, projetada para processar, tratar, analisar e visualizar históricos de vendas corporativas. 
+O **SalesInsight PY** é uma solução em Python estruturada em Programação Orientada a Objetos (POO) e funções reutilizáveis, projetada para processar, tratar, analisar e visualizar históricos de vendas de uma empresa. 
 
-O pipeline consome dados brutos (contendo ruídos, nulos e inconsistências de formatação), realiza um rigoroso processo de sanitização e transformação, calcula métricas de desempenho em múltiplas dimensões e exporta relatórios executivos (CSV/JSON) acompanhados de um painel de gráficos estatísticos em alta resolução (PNG).
+O pipeline consome dados brutos (contendo ruídos, nulos e inconsistências de formatação), oriundos de uma função geratriz (sales_dataset_generator.py), que retorna o arquivo vendas.csv. Realiza um rigoroso processo de sanitização e transformação, sobre esse arquivo bruto, calcula métricas de desempenho em múltiplas dimensões e exporta relatórios executivos (CSV/JSON) acompanhados de um painel de gráficos estatísticos em alta resolução (PNG).
 
-A estrutura de diretórios foi construída manualmente, logo, para a fiel reprodução e operação da aplicação será necessário recriá-la conforme descrição (ilustração) no final deste arquivo.
+⚠️ A estrutura de pastas do projeto foi construída manualmente, logo, para a fiel reprodução e operação da aplicação será necessário recriá-la conforme descrição (ilustração) no final deste arquivo.
 
 ---
 
@@ -25,9 +25,9 @@ A estrutura de diretórios foi construída manualmente, logo, para a fiel reprod
 
 ## 📋 Quadro de Organização (Kanban)
 
-O planejamento e o fluxo de desenvolvimento do projeto foram gerenciados utilizando a metodologia Kanban:
+O planejamento e o fluxo de desenvolvimento do projeto foram gerenciados utilizando a metodologia Kanban, por meio da plataforma Trello:
 
-* **Quadro Kanban (Link/Imagens):** [Link das imagens do Trello](https://github.com/andrefajardo/sctec-mini-projeto-01/tree/main/planejamento)
+* **Quadro Kanban (Link/Imagens):** [Link para as imagens do Trello](https://github.com/andrefajardo/sctec-mini-projeto-01/tree/main/planejamento)
 * **Estrutura de Colunas:** `Backlog` | `A Fazer` | `Em Andamento` | `Concluído`
 
 ---
